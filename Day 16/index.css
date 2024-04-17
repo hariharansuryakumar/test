@@ -1,0 +1,14 @@
+div{
+    /* background-color: black; */
+    font-style: italic;
+    font-size: large;
+   
+display: flex;
+}
+
+#countdown {
+justify-content: center;
+flex-wrap: wrap;
+background-color: aqua;
+
+}

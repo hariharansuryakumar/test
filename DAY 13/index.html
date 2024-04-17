@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>GUVI NEWS LETTER</h1>
+    </header>
+    <nav>Navigation contents</nav>
+    <main>
+        <h2>Main Heading</h2>
+        <p>Main Content Paragraph</p>
+    </main>
+    <aside>
+        <p>aside content</p>
+    </aside>
+    <footer>
+        <p>Footer content</p>
+    </footer>
+</body>
+</html>
+@media (max-width: 600px)
+aside {
+    display: None
+}
+
+body {
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-template-areas:
+    "header"
+    "nav"
+    
+}

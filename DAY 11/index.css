@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 90vh;
+    border: 2px dotted violet;
+}
+
+.blue {
+    height: 75px;
+    background-color: blue;
+}
+.red {
+    height: 5px;
+    background-color: red;
+}
+
+.green {
+    height: 175px;
+    background-color: green;
+}
+
+div{
+    border: 4px solid black;
+    padding: 0.6rem;
+    color: rgb(168, 168, 143);
+    font-size: 2rem;
+    font-weight: bold;
+}

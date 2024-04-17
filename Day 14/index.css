@@ -1,0 +1,11 @@
+.gold {
+    color: blue;
+}
+.big {
+    font-size: 2rem;
+}
+
+#scrollable {
+    position: relative;
+    background-color: r5;
+}
