@@ -20,18 +20,17 @@ setTimeout(function () {
             counterdownElement.textContent = "4";
             setTimeout(function () {
               counterdownElement.textContent = "3";
-              counterdownElement.style.color = "orange";
+             
               setTimeout(function () {
                 counterdownElement.textContent = "2";
-                counterdownElement.style.color = "white";
+               
                 setTimeout(function () {
                   counterdownElement.textContent = "1";
-                  counterdownElement.style.color = "green";
+
                   setTimeout(function () {
                     counterdownElement.textContent = "Happy Independence Day!!";
-                    counterdownElement.style.color = "black"
-                var img = document.body.createElement ("img");
-                
+                    counterdownElement.style.color = "Gold"
+
                   }, 1000);
                 }, 1000);
               }, 1000);

@@ -1,0 +1,15 @@
+div{
+    background-color: black; 
+    font-style: italic;
+    font-size: large;
+
+   display: flex;
+   justify-content: center;
+}
+
+#countdown {
+
+flex-wrap: wrap;
+color: whitesmoke;
+
+}
