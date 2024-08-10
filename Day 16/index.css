@@ -1,0 +1,14 @@
+.container {
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+#countDown{
+    flex-wrap: wrap;
+    font-size: 6rem;
+    padding: 40px 20px;
+    background-color: rgb(226, 206, 24);
+    border : 6px solid rgb(22, 26, 26);
+}
