@@ -1,5 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
+import Wavegas from './wave'
+
 
 function Home() {
   return (
@@ -12,46 +14,77 @@ function Home() {
         style={{ padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '300px' }}
       /> 
     </div>
-  
-    <Card  style={{ width: '25rem', margin: '30px', padding:'90px' }}>
+
+    <div className='d-flex flex-row justify-content- -around'>
+    <Card className='justify-content-center col-md-4' style={{ width: '23rem', margin: '30px', padding:'60px' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Wave gas</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Card.Link href="Wavegas">Card Link</Card.Link>
       </Card.Body>
     </Card>
-    <div>
-    <Card style={{ width: '25rem', margin: '30px', padding:'90px' }}>
+    
+    <Card className='justify-content-center col-md-4' style={{ width: '25rem', margin: '30px', padding:'60px' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Gentle gas</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Card.Link href="Gentlegas">Card Link</Card.Link>
+       
       </Card.Body>
     </Card>
-    </div>
-    <div>
-    <Card  style={{ width: '25rem', margin: '30px', padding:'90px' }}>
+
+    <Card className='justify-content-center col-md-4' style={{ width: '25rem', margin: '30px', padding:'60px' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>HM agency</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Card.Link href="Hmagency">Card Link</Card.Link>
       </Card.Body>
     </Card>
+
+    <Card className='justify-content-center col-md-4' style={{ width: '25rem', margin: '30px', padding:'60px' }}>
+      <Card.Body>
+        <Card.Title>Butterfly gas</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <Card.Text> 
+        
+        </Card.Text>
+        <Card.Link href="Butterflygas">Card Link</Card.Link>
+      </Card.Body>
+    </Card>
+
+
+    <Card className='justify-content-center col-md-4' style={{ width: '25rem', margin: '30px', padding:'60px' }}>
+      <Card.Body>
+        <Card.Title>kumaran agency</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <Card.Text>
+         
+        </Card.Text>
+        <Card.Link href="Kumaranagency">Card Link</Card.Link>
+      </Card.Body>
+    </Card>
+
+
+    <Card className='justify-content-center col-md-4' style={{ width: '25rem', margin: '30px', padding:'60px' }}>
+      <Card.Body>
+        <Card.Title>Go gas providers</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <Card.Text>
+         
+        </Card.Text>
+        <Card.Link href="Gogas">Card Link</Card.Link>
+      </Card.Body>
+    </Card>
+
     </div>
 
     </div>
